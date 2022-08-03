@@ -1,0 +1,61 @@
+div#titulo {
+    width: 460px;
+    font-size: 15pt;
+    margin: 5px auto 0px auto;
+
+}
+
+div#titulo h3 {
+    width: 350px;
+    margin: 10px auto 10px auto;
+}
+
+
+input#fNome{
+    width: 200px;
+
+}
+
+input#fCPF {
+    width: 150px;
+}
+
+input#fNascimento {
+    width: 190px;
+}
+
+input#fEmail {
+    width: 300px;
+
+}
+
+input#fTelefone {
+    width: 130px;
+}
+
+input#fCidade {
+    width: 130px;
+}
+
+select#fUF{
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 220px;
+}
+
+input.fFuma{
+    margin-left: 5px;
+}
+
+label[for="fumante"]{
+    margin-left: 5px;
+}
+
+label[for="Nao-fumante"]{
+    margin-left: 5px;
+}
+
+
+

@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.18);
+    font-family: "Ink Free";
+}
+
+/*---------------------------------------- FORMATAÇÃO DO CABEÇALHO -----------------------------------------------*/
+
+header{
+    width: 1530px;
+    height: 80px;
+    background-color: black;
+    color: #00A19C;
+    border: 3px solid #80142B;
+    text-transform: uppercase;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+#logo{
+    background-color: white;
+    margin-left: 150px;
+    width: 80px;
+    height: 80px;
+    background-image: url(../img/logoTheGallery.jpg);
+}
+
+
+h1 a {
+    color: #00A19C;
+    text-decoration: none;
+    margin-left: 350px;
+
+}
+
+h1 a:hover {
+    color: #80142B;
+}
+
+/*-------------------------------------------- FORMATAÇÃO DO MENU -----------------------------------------------*/
+
+
+nav.menu {
+    width: 550px;
+    margin-left: 55px;
+
+}
+
+nav.menu li {
+    display: none;
+}
+
+#Menu_Principal_NONE{
+    display: none;
+}
+
+nav.menu li{
+    font-weight: bolder;
+    font-size: 10pt;
+    margin: 0px 4px 0 2px;
+    display: inline-flex;
+}
+
+nav.menu a {
+    color: #00A19C;
+    text-decoration: none;
+}
+
+nav.menu a:hover {
+    color: #80142B;
+}
+
+li {
+    list-style-type: none;
+}
+/*----------------------------------------------- INTERFACE ---------------------------------------------------*/
+
+#corpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div#fundo {
+    width: 1000px;
+    height: 549px;
+    background-color: black;
+    margin: 0px auto 0px auto;
+}
+
+img#imagemFundo {
+    margin: 0px auto 0px 0px;
+    width: 1000px;
+    height: 549px;
+}
+
+fieldset.fs{
+    margin: 20px auto 5px auto;
+    width: 450px;
+    border: 3px solid #80142B;
+    color: #00A19C;
+    font-weight: bolder;
+    font-size: 13pt;
+    border-radius: 10px;
+}
+
+fieldset.fieldsetinterno{
+    border-radius: 10px;
+    margin-top: 0px;
+    border: 1px solid #80142B;
+    width: 115px;
+}
+
+div#titulo {
+    width: 500px;
+    height: 80px;
+    font-size: 15pt;
+    text-transform: uppercase;
+    margin: 5px auto 0px auto;
+    color: #00A19C;
+}
+
+div#titulo h3 {
+    color: #00A19C;
+    font-size: 15pt;
+    width: 470px;
+    margin: 10px auto 10px 20px;
+}
+
+input {
+    font-size: 13px;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.botoesRecepcao {
+    margin-left: 150px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-color: #00A19C;
+}
+
+.botoesRecepcao:hover{
+    background-color: #80142B;
+    transition: 1s;
+}
+
+
+/*------------------------------------------------- FOOTER -----------------------------------------------------*/
+
+footer{
+    width: 1530px;
+    height: 80px;
+    border: 3px solid #80142B;
+    background-color: black;
+    color: #00A19C;
+    font-family: "Ink Free";
+    font-weight: bolder;
+    font-size: 12pt;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: #00A19C;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #80142B;
+}

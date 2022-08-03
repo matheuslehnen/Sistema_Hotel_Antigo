@@ -1,0 +1,141 @@
+*{
+    margin: 0px;
+
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.18);
+    font-family: "Ink Free";
+    font-size: 10pt;
+
+}
+
+/*---------------------------------------- FORMATAÇÃO DO CABEÇALHO -----------------------------------------------*/
+
+header{
+    width: 498px;
+    height: 80px;
+    background-color: black;
+    color: #00A19C;
+    border: 3px solid #80142B;
+    text-transform: uppercase;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+#logo{
+    background-color: white;
+    margin-left: 10px;
+    width: 80px;
+    height: 80px;
+}
+
+
+h1 a {
+    color: #00A19C;
+    text-decoration: none;
+    margin-left: 25px;
+}
+
+h1 a:hover {
+    color: #80142B;
+}
+
+
+/*----------------------------------------------- INTERFACE ---------------------------------------------------*/
+
+#corpo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div#fundo {
+    width: 505px;
+    height: 336px;
+    background-color: black;
+    margin: 0px auto 0px auto;
+}
+
+div#titulo {
+    width: 500px;
+    height: 80px;
+    font-size: 10pt;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 30px auto 0px auto;
+    color: #00A19C;
+}
+
+fieldset.fs{
+    margin: -25px auto 5px auto;
+    width: 300px;
+    border: 3px solid #80142B;
+    color: #00A19C;
+    font-weight: bolder;
+    font-size: 13pt;
+    border-radius: 10px;
+    font-family: "Ink Free";
+}
+
+input {
+    font-size: 13px;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+select {
+    font-size: 13px;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+select#fIDhospede {
+    width: 45px;
+}
+
+input#ftotalDiarias {
+    width: 35px;
+}
+
+select#fquartoNumIn {
+    width: 45px;
+}
+
+#botaoCheckIn{
+    width: 50px;
+    height: 40px;
+    margin: 15px auto 0px 120px;
+    background-color: #00A19C;
+}
+
+#botaoCheckIn:hover{
+    background-color: #80142B;
+    transition: 1s;
+}
+
+/*------------------------------------------------- FOOTER -----------------------------------------------------*/
+
+footer{
+    width: 498px;
+    height: 81px;
+    border: 3px solid #80142B;
+    background-color: black;
+    font-family: "Ink Free";
+    font-weight: bolder;
+    font-size: 10pt;
+    margin: 0px auto 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: #00A19C;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #80142B;
+}

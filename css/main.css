@@ -1,0 +1,30 @@
+
+div#titulo {
+    width: 460px;
+    height: 120px;
+    font-size: 15pt;
+    text-transform: uppercase;
+    margin: 5px auto 0px auto;
+    color: #00A19C;
+
+}
+
+div#titulo h3 {
+    color: #00A19C;
+    font-size: 15pt;
+    width: 350px;
+    margin: 10px auto 10px auto;
+}
+
+
+div#areaResposta {
+    font-weight: bolder;
+    font-size: 16pt;
+    width: 350px;
+    height: 50px;
+    color: #80142B;
+    margin: 1px auto 5px auto;
+    background-color: black;
+}
+
+

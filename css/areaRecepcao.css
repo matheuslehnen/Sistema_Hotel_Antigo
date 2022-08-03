@@ -1,0 +1,312 @@
+header{
+    width: 1530px;
+    height: 80px;
+
+    color: #00A19C;
+    border: 3px solid #80142B;
+    text-transform: uppercase;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: center;
+
+}
+
+#logo{
+    background-color: white;
+    margin-left: 150px;
+    width: 80px;
+    height: 80px;
+}
+
+#welcome{
+    margin-left: 60px;
+    width: 140px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+h1 a {
+    color: #00A19C;
+    text-decoration: none;
+    margin-left: 150px;
+
+}
+
+h1 a:hover {
+    color: #80142B;
+}
+
+div#fundo {
+    width: 1200px;
+    height: 549px;
+    background-color: black;
+    margin: 0px auto 0px auto;
+}
+
+
+
+div#titulo {
+    margin: 5px auto 0px auto;
+    width: 460px;
+    border-radius: 15px;
+}
+
+div#titulo h3 {
+    width: 440px;
+    margin: 10px auto 10px 10px;
+}
+
+div#subTitulo{
+    color: #00A19C;
+    width: 550px;
+    height: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 45px auto 0px auto;
+    font-size: 30pt;
+    font-weight: bolder;
+    border-radius: 15px;
+}
+
+div#areaEscolhasClientes{
+    width: 140px;
+    height: 170px;
+    margin: -90px 0px 0px 15px;
+    font-size: 15pt;
+    color: #00A19C;
+    text-align: center;
+    border-radius: 15px;
+}
+
+div#areaEscolhasQuartos{
+    width: 140px;
+    height: 170px;
+    height: 170px;
+    margin: -170px 0px 0px 1030px;
+    font-size: 15pt;
+    color: #00A19C;
+    text-align: center;
+    border-radius: 15px;
+}
+
+div#areaResposta {
+    font-weight: bolder;
+    font-size: 15pt;
+    width: 1200px;
+    height: 260px;
+    color: #80142B;
+    margin: -255px 0px 0px 0px;
+    border-radius: 15px;
+
+}
+
+table#resposta {
+    font-weight: bolder;
+    font-size: 12pt;
+    width: 1200px;
+    height: 20px;
+    margin: 5px auto 0px 0px;
+    border-radius: 15px;
+    display: table;
+    text-align: center;
+
+}
+
+#poolArea{
+    border-radius: 15px;
+    margin: 0px auto 0px auto;
+    width: 1200px;
+    height: 260px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 8px;
+    align-items: center;
+    align-content: flex-start;
+}
+
+
+
+.cubos{
+    margin-left: 5px;
+    text-align: center;
+    font-size: 15pt;
+    font-weight: bolder;
+    background-color: #00A19C;
+    border-radius: 15px;
+    height: 75px;
+    width: 75px;
+    color: #80142B;
+}
+
+
+.campos{
+    color: #80142B;
+    font-weight: bolder;
+}
+
+.botoesAreaRecepcao{
+    width: 140px;
+    font-weight: bolder;
+    font-size: 15pt;
+    font-family: "Ink Free";
+    color: #00A19C;
+    cursor: pointer;
+    background-color: black;
+}
+.botoesAreaRecepcao:hover{
+    color: #80142B;
+}
+
+/*--------------------------------------------  Clientes BOTOES  ----------------------------------------------- */
+
+#Clientes{
+    margin: 10px 50px 0px 20px;
+    cursor: pointer;
+}
+
+#Clientes a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#Clientes a:hover{
+    color: #80142B;
+}
+
+#addClientes {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#addClientes a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#addClientes a:hover{
+    color: #80142B;
+}
+
+#editaClientes {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+
+}
+
+#editaClientes a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#editaClientes a:hover{
+    color: #80142B;
+}
+
+#excluiClientes {
+
+}
+
+#excluiClientes:hover{
+    color: #80142B;
+}
+
+#check-In {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#check-In a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#check-In a:hover{
+    color: #80142B;
+}
+
+/*--------------------------------------------  Quartos BOTOES  ----------------------------------------------- */
+
+#Quartos{
+    margin: 10px 0px 0px 20px;
+}
+
+#Quartos a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#Quartos a:hover {
+    color: #80142B;
+}
+
+#addQuartos {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#addQuartos a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#addQuartos a:hover{
+    color: #80142B;
+}
+
+#poolQuartos {
+    padding: 2px;
+    margin-top: 20px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#poolQuartos a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#poolQuartos a:hover{
+    color: #80142B;
+}
+
+
+input[type='checkbox']{
+    cursor: pointer;
+}
+
+#editaQuartos {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#editaQuartos a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#editaQuartos a:hover{
+    color: #80142B;
+}
+
+#check-Out {
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bolder;
+}
+
+#check-Out a{
+    text-decoration: none;
+    color: #00A19C;
+}
+
+#check-Out a:hover{
+    color: #80142B;
+}
+

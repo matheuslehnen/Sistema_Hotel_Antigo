@@ -1,0 +1,56 @@
+div#titulo {
+    width: 460px;
+    font-size: 15pt;
+    margin: 5px auto 0px auto;
+
+}
+
+div#titulo h3 {
+    width: 350px;
+    margin: 10px auto 10px auto;
+}
+
+select#fID {
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90px;
+    width: 45px;
+}
+
+select#fLocalizacao{
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90px;
+}
+
+
+input#fValorDiaria {
+    width: 90px;
+}
+
+input.fQuartoFumante{
+    margin-left: 5px;
+}
+
+label[for="fQuartoFumante"]{
+    margin-left: 5px;
+}
+label[for="fQuartoNao-fumante"]{
+    margin-left: 5px;
+}
+
+input#fCapacidade{
+    width: 40px;
+
+}
+select#fSituacao{
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+}

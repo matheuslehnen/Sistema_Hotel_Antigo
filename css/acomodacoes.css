@@ -1,0 +1,115 @@
+div#titulo {
+    width: 460px;
+    margin: 5px auto 0px auto;
+}
+
+div#titulo h3 {
+    width: 800px;
+    margin: 10px auto 10px -100px;
+    margin: 10px auto 10px -80px;
+}
+
+
+ul#album-fotos {
+    width: 700px;
+    margin-top: -55px;
+    margin-left: -150px;
+    padding: 50px;
+    overflow: hidden;
+    list-style: none;
+}
+
+ul#album-fotos li {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid #80142B;
+    background-color: #80142B;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+ul#album-fotos li span {
+    opacity: 0;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000000;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#album-fotos li:hover {
+    -webkit-transform: scale(1.5);
+    -webkit-transition: all 0.5s ease-in;
+}
+
+ul#album-fotos li:hover span {
+    opacity: 1;
+}
+
+ul#album-fotos li#foto01 {
+    background: url("../img/quarto1.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #c6c6c6;
+}
+ul#album-fotos li#foto01:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto02 {
+    background: url("../img/quarto2.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #c6c6c6;
+}
+ul#album-fotos li#foto02:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto03 {
+    background: url("../img/quarto3.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #c6c6c6;
+}
+ul#album-fotos li#foto03:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto04 {
+    background: url("../img/banheiro1.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #c6c6c6;
+}
+ul#album-fotos li#foto04:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto05 {
+    background: url("../img/quarto7.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #c6c6c6;
+}
+ul#album-fotos li#foto05:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+
+ul#album-fotos li#foto06 {
+    background: url("../img/cozinha1.jpg") no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #c6c6c6;
+}
+ul#album-fotos li#foto06:hover {
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}

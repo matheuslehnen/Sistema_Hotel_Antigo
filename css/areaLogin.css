@@ -1,0 +1,75 @@
+* {
+    margin: 0px;
+
+}
+
+body {
+    background-color: white;
+    font-family: "Ink Free";
+    color: #80142B;
+}
+
+main {
+    background-color: black;
+    height: 509px;
+    width: 504px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+section {
+    background-color: #c6c6c6;
+    border-radius: 15px;
+    height: 300px;
+    width: 300px;
+    box-shadow: 15px 15px 40px #80142B;
+}
+
+header {
+    margin: 20px auto 0px auto;
+    width: 300px;
+    font-size: 13pt;
+    font-weight: bolder;
+}
+
+form {
+    margin: 50px auto 0px 20px;
+    width: 300px;
+}
+
+input {
+    font-size: 10pt;
+    margin: 3px;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+input#login {
+    margin-left: 9px;
+}
+
+input#senha {
+    margin-left: 5px;
+
+}
+label{
+    font-size: 13pt;
+    font-weight: bolder;
+}
+input#entrar{
+    margin: 20px auto auto 100px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #c6c6c6;
+    color: #80142B;
+    padding: 10px;
+}
+
+input#entrar:hover{
+    background-color: #80142B;
+    color: black;
+    transition: 2s;
+}

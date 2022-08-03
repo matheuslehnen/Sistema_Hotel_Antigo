@@ -1,0 +1,47 @@
+div#titulo {
+    width: 460px;
+    margin: 5px auto 0px auto;
+}
+
+div#titulo h3 {
+    width: 350px;
+    margin: 10px auto 10px auto;
+}
+
+
+
+
+select#fLocalizacao{
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90px;
+}
+
+
+input#fValorDiaria {
+    width: 90px;
+}
+
+input.fFuma{
+    margin-left: 5px;
+}
+label[for="fumante"]{
+    margin-left: 5px;
+}
+label[for="Nao-fumante"]{
+    margin-left: 5px;
+}
+
+input#fCapacidade{
+    width: 40px;
+}
+select#fSituacao{
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+}
+
